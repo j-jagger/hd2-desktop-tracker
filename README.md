@@ -26,15 +26,15 @@
 
 <h2>Building</h2>
 <br>
-PyInstaller / auto-py-to-gui is what I recommend you to use for making HD2DT executables for windows.
+I recommend using PyArmor for windows builds. It obfuscates the .py before turning it into an .exe with PyInstaller.
 <br>
-For some reason, desktop_notifier doesn't automatically get bundled with its .resources subsidiary in pyinstaller. Make sure to add that when building.
+Use the following command.
 <br>
 <br>
-<img src="https://github.com/user-attachments/assets/0cd34e87-94c3-46ca-a185-8d9ef4357188"> </img>
 
-```pyinstaller --noconfirm --onefile --windowed --icon "helldivers.ico" --hidden-import "desktop_notifier.resources"  "helldivers_tracker.py"```
-
+```pyarmor-7 pack -e "--noconfirm --onefile --windowed --icon helldivers.ico --hidden-import desktop_notifier.resources" helldivers_tracker.py```
+<br>
+"helldivers.ico" can be found in the resources folder in this repo.
 
 
 <h2>Testing</h2>
