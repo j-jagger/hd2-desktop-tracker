@@ -6,17 +6,17 @@ Also my first proper attempt at code commenting.
 Written in one night. Expect bugs. Probably.
 
 Requirements:
-    -wxpython 
+    -pygame
     -requests
-    -desktop_notify
-    -playsound
-    -asyncio
+    -pillow
+    -pystray
+    -desktop_notifier
     
 By Joe J / Wider 2024
-22/11/2024 (how comical)
+Started: 10:07PM 22/11/2024
+V1 Finished: 01:26AM 23/11/2024
 """
 
-import json  # for parsing the output from the endpoint
 import os  # for interacting with the operating system
 import pathlib  # for handling file paths
 import pygame  # for playing sounds
@@ -39,7 +39,7 @@ firsttime = True
 debug = False
 
 # Endpoints
-if not debug:
+if debug == False:
     endpoint_dict = {
     "mos": "https://helldiverstrainingmanual.com/api/v1/war/major-orders",  # Major Orders
     "ign": "https://helldiverstrainingmanual.com/api/v1/war/news",  # In Game News
