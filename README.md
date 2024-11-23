@@ -23,11 +23,25 @@
 <h3 align="center">END USERS, KEEP OUT! </h3>
 </p>
 
+<h2>Building</h2>
+<br>
+PyInstaller is used to make the executables for windows releases. I have zero linux / macos building experience, so you'll have to figure those out on your own.
+<br>
+For some reason, desktop_notifier doesn't automatically get bundled with its .resources subsidiary in pyinstaller. Make sure to add that when building.
+<br>
+<br>
+<img src="https://github.com/user-attachments/assets/0cd34e87-94c3-46ca-a185-8d9ef4357188"> </img>
+
+
+
+<h2>Testing</h2>
+<br>
 Alongside the main program, this repo contains a debug API for testing, built with Flask.
 This API mimics the HD2 API, and is for general testing purposes.
 To toggle usage of this API over the normal one, look for "debug = False" around line 39. Set it to True.
-
-![image](https://github.com/user-attachments/assets/aa68597d-ea08-45fe-9e22-ee3fbf6f3d1c)
+<br>
+<br>
+ <img src="https://github.com/user-attachments/assets/aa68597d-ea08-45fe-9e22-ee3fbf6f3d1c"> </img>
 
 
 Have fun dealing with threads and asyncio!
