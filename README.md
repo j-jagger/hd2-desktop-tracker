@@ -32,6 +32,8 @@ For some reason, desktop_notifier doesn't automatically get bundled with its .re
 <br>
 <img src="https://github.com/user-attachments/assets/0cd34e87-94c3-46ca-a185-8d9ef4357188"> </img>
 
+```pyinstaller --noconfirm --onefile --windowed --icon "helldivers.ico" --hidden-import "desktop_notifier.resources"  "helldivers_tracker.py"```
+
 
 
 <h2>Testing</h2>
