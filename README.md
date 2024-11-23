@@ -1,5 +1,6 @@
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1684a804-78e2-4396-87fe-aeb82d2b170b"></img>
+
 <br>
 <br>
 <br>
@@ -19,6 +20,8 @@
   <br>
   <br>
   <img src="https://github.com/user-attachments/assets/62b6e25d-bc55-4fd8-bdfb-13cf88c7b465"> </img>
+  <img src="https://github.com/user-attachments/assets/0865b223-bd20-403e-b188-7df31fd56ae8"></img>
+
   
 </p>
 <h1 align="center">Technical Gargon</h1>
