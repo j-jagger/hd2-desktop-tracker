@@ -9,7 +9,7 @@
 <p align="center">
   This program runs in the background and sends the user a push notification when new HD2 ingame news and major orders are released!
   <br>
-  !! You need to build this yourself as the .exe is too large for github (27/25mb) !!
+  !! Self-building is recommended. !!
   <br>
   <br>
   Thank you to https://helldiverstrainingmanual.com/ for the API endpoints. This wouldn'tve been possible without them.
